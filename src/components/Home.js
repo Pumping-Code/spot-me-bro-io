@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
 
 class Home extends Component {
@@ -41,6 +42,7 @@ class Home extends Component {
     return (
       <div className="appContainer">
         <h1>Spot Me {this.state.bro}</h1>
+        <Link to={'/privacy-policy'}>Privacy Policy</Link>
       </div>
     )
   }
