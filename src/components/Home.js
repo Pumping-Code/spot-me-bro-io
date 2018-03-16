@@ -39,7 +39,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div className="appContainer">
         <h1>Spot Me {this.state.bro}</h1>
       </div>
     )

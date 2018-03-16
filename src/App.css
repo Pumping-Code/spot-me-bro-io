@@ -1,3 +1,8 @@
 .appContainer {
   text-align: center;
 }
+
+.privacy {
+  margin: 20px 40px;
+  text-align: left;
+}
